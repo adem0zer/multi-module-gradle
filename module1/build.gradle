@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(":module2")
+}
+bootJar {
+    enabled = false
+}
+

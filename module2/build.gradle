@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+}
+ext {
+    myBatisVersion = '3.5.11'
+}
+dependencies {
+    api "org.mybatis:mybatis:${myBatisVersion}"
+}
+bootJar {
+    enabled = false
+}
